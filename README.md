@@ -2,7 +2,127 @@
 <html>
 <head>
  <title>Ganesha</title>
- <link rel="stylesheet"href="style.css">
+ <style>
+  body {
+    font: 16px/28px arial, sans-serif;
+    background-color: lightgray;
+ 
+ 
+ }
+ 
+ .container {
+     width: 960px;
+     margin: auto;
+     background-color: #fff;
+ 
+ 
+ }
+ 
+ .header{
+     padding: 20px;
+ 
+ }
+ 
+ .header ul li{
+     display: inline-block;
+     margin-top: 20px;
+     margin-right:10px;
+     padding: 3px;
+ 
+ }
+ 
+ .header a{
+     text-decoration: none;
+     color: salmon;
+ 
+ 
+ }
+  
+ .header a:hover {
+     background-color: lightskyblue;
+     color: white;
+ }
+ 
+ .hero{
+     height: 330px;
+     background-image: url(hero.png.jpg);
+     background-size: cover;
+     background-position: 0-180px;
+     border-bottom:  5px solid lightskyblue;
+     border-top:  5px solid salmon;
+     width: 960px;
+     margin: auto;
+ }
+ 
+  .content {
+      width: 700px;
+     padding: 30px
+     box-sizing: border-box;
+     float: left;
+ 
+  }
+ 
+  .main h2 {
+     font-size: 32px;
+     font-weight: bold;
+     width: 700px;
+  }
+ 
+  .main .penulis{
+     font-size: 11px
+     margin-bottom: -5;
+     background-color: #fff;
+     width: 700px;
+  }
+ 
+  .main .penulis a{
+      color: salmon;
+      text-decoration: none;
+      background-color: #fff;
+      width: 700px;
+  }
+ 
+  .main p{
+     margin-bottom: 20px;
+     font-size: 25px;
+     width: 700px;
+ 
+  }
+   .copyright {
+      background-color: #333;
+      
+  }
+ 
+   .copyright {
+        color: #eaeaea;
+        text-align-last: center;
+   }
+  
+  /* clearfix */   
+  .cf:before,
+  .cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+  
+  .cf:after {
+      clear: both;
+  }
+  
+  
+  .cf {
+      *zoom: 1;
+  }
+  
+  /*sidebar*/
+   .sidebar{
+       float: right;
+       float: top;
+  
+  
+  
+   }
+ </style>
 </head>
 <body>
 
